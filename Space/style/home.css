@@ -1,0 +1,42 @@
+body {
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70%;
+  align-items: flex-end;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 450px;
+  height: -moz-max-content;
+  height: max-content;
+}
+.left p {
+  padding-top: 10px;
+  line-height: 30px;
+}
+.left h1 {
+  padding-top: 20px;
+}
+
+.right div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 270px;
+  width: 270px;
+  border-radius: 135px;
+}
+.right div h4 {
+  color: #000;
+}/*# sourceMappingURL=home.css.map */

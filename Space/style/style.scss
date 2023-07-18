@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+// Typography
+@font-face {
+  font-family: Bellefair;
+  src: url(../assets/font/Bellefair.ttf);
+}
+@font-face {
+  font-family: Barlow;
+  src: url(../assets/font/Barlow.ttf);
+}
+@font-face {
+  font-family: BarlowC;
+  src: url(../assets/font/BarlowC.ttf);
+}
+@font-face {
+  font-family: BarlowCB;
+  src: url(../assets/font/BarlowCB.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: Bellefair;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-size: 150px;
+}
+h2 {
+  font-size: 100px;
+}
+h3 {
+  font-size: 56px;
+}
+h4 {
+  font-size: 32px;
+}
+h6 {
+  font-size: 28px;
+}
+h5 {
+  font-family: BarlowC;
+  font-weight: 100;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  font-size: 18px;
+  font-family: Barlow;
+  font-weight: 100;
+  color: #d0d6f9;
+  margin: 0px;
+  padding: 0px;
+}
+.sb2 {
+  font-family: BarlowC;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2.35px;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  font-family: BarlowC;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+// nav
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px 0px;
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.396);
+    height: 50px;
+    align-items: center;
+    li {
+      padding: 0px 30px;
+    }
+  }
+}
+.bold {
+  font-family: BarlowCB;
+}
+.active {
+  text-decoration: 3px underline;
+  text-underline-offset: 18px;
+}

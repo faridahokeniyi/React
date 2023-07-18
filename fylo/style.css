@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+}
+@font-face {
+  font-family: Open;
+  src: url(font/OpenSans.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(font/Raleway.ttf);
+}
+body {
+  background: hsl(217, 28%, 15%);
+}
+.space {
+  height: 5vh;
+}
+.space1 {
+  height: 20vh;
+}
+nav,
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  padding-left: 60px;
+  width: 60%;
+  font-size: 40px;
+}
+.nav-links li {
+  padding: 0 20px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-img img {
+  width: 700px;
+  height: auto;
+}
+article {
+  text-align: center;
+  width: 100%;
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 80px;
+  padding-bottom: 190px;
+}
+article h1 {
+  font-size: 40px;
+  line-height: 60px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-family: Raleway;
+}
+article p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-family: Open;
+  font-weight: 300;
+}
+button {
+  background-image: linear-gradient(120deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  border: transparent;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.info {
+  background: #181f2b;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cards h4 {
+  font-family: Raleway;
+  font-size: 20px;
+  padding: 20px 0px 10px;
+}
+.cards p {
+  font-family: Open;
+  font-size: 14px;
+  line-height: 23px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.middle-text p {
+  font-family: Open;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 10px 0;
+}
+.middle-text h1 {
+  font-family: Raleway;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.middle-text h4 {
+  font-family: Open;
+  font-size: 20px;
+  font-weight: 100;
+  color: aqua;
+  text-decoration: underline;
+  padding-top: 15px;
+}
+.testimony {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-t {
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.card-t h4 {
+  font-family: Open;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.card-t h5,
+.card-t h6 {
+  font-family: Open;
+}
+.profile img {
+  width: 30px;
+  height: auto;
+  border-radius: 20px;
+  padding-right: 0px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile-text {
+  padding-left: 10px;
+}
+.access {
+  display: flex;
+  justify-content: center;
+  padding-top: 25vh;
+  margin-bottom: -100px;
+}
+.access1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 60%;
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #000000;
+}
+.access1 h1 {
+  font-family: Raleway;
+  font-size: 30px;
+  padding: 40px 0px 10px;
+}
+.access1 h5 {
+  font-family: Open;
+  font-weight: 100;
+  line-height: 25px;
+  padding-bottom: 35px;
+}
+.access1 input {
+  font-family: Raleway;
+  height: 50px;
+  width: 400px;
+  border-radius: 25px;
+  border: transparent;
+  color: hsl(217, 28%, 15%);
+  padding-left: 20px;
+  font-size: 15px;
+}
+.access-signup {
+  padding-bottom: 40px;
+}
+footer {
+  background: hsl(216, 53%, 9%);
+  height: 60vh;
+  font-family: Open;
+  font-weight: 400;
+}
+.foottext {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact,
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.address {
+  display: flex;
+}
+.address img {
+  width: 15px;
+  height: fit-content;
+}
+.address p {
+  padding-left: 30px;
+  line-height: 30px;
+}
+.contact img {
+  padding-right: 10px;
+}
+.menu li {
+  padding-bottom: 10px;
+}
